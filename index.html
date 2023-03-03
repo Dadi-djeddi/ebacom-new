@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Cinzel&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+    <title>EBACOM</title>
+</head>    
+<div class="panneau">
+    <img src="elements/Images/Logo.png" alt="logo" draggable="false" class="logo" onclick="location.href='index.html'">
+   <p onclick="location.href='index.html'">EBACOM PANNEAU SANDWICH</p> 
+    <div class="burger-nav" onclick="burgerClick()">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+    </div>
+    <ul class="burger-list"> 
+        <a href="index.html#home-page" class="nav-link">Page d'accueil</a>
+        <a href="index.html#entreprise-page" id="entreprise" class="nav-link">Entreprise</a>
+        <a href="index.html#products-page" id="produits" class="nav-link">Produits</a>
+        <a href="index.html#service-page" id="service" class="nav-link">Service</a>
+        <a href="index.html#footer" id="contact" class="nav-link">Contact</a>
+    </ul>
+    
+</div>
+<nav id="nav">
+    <ul>
+        <a href="index.html#entreprise-page" id="entreprise" class="nav-link">Entreprise</a>
+        <a href="index.html#products-page" id="produits" class="nav-link">Produits</a>
+        <a href="index.html#service-page" id="service" class="nav-link">Service</a>
+        <a href="index.html#footer" id="contact" class="nav-link">Contact</a>
+    </ul>
+</nav>
+<body>
+
+<section id="home-page">
+    <div id="home-poster">
+        <img class="img" src="elements/Images/Villa 01.png" draggable="false">
+        <img class="img" src="elements/Images/Villa 07.jpg" draggable="false">
+        <img class="img" src="elements/Images/Salle de bain.jpg" draggable="false">
+        <img class="img" src="elements/Images/Cuisine.jpg" draggable="false">
+        <div class="overlay"></div>
+        <h1 class="poster-text">Construisons un monde meilleur</h1>
+    </div>
+    
+    <h1 class="text1">EBACOM PANNEAU SANDWICH :</h1>
+    <h2>est une entreprise specialisée dans la fabrication de produits destinés à la contruction moderne</h2>
+    <h3>Elle regroupe la fabrication de produits de haute gamme sur 03 volets:</h3>
+</section> 
+<section id="products-page">
+    <div id="solid" class="product one" onclick="location.href='SolidSurface.html'">
+        <img class="C3" src="elements/Solid/Surface1.png" draggable="false" >
+        <img class="C2" src="elements/Solid/Surface3.png" draggable="false" >
+        <img class="C1" src="elements/Images/product panel/Untitled-6.png" draggable="false">
+        <img src="elements/Images/Group 9.png" class="C-line">
+        <div id="C-text" class="P-text" >Production de Solid Surface Pour diverses Applications</div>
+
+
+       </div>
+       <div id="deco" class="product two" onclick="location.href='PSDécoratifs.html'"> 
+              <img class="A3" src="elements/Décoratif/Villa.png" draggable="false" >
+              <img class="A2" src="elements/Décoratif/Panneau_Décoratifs2.png" draggable="false" >
+              <div class="A1"><img class="panel3d" src="elements/Images/ACCESOIRES.png" draggable="false"></div>
+              <img src="elements/Images/Group 9.png" class="A-line">
+              <div id="A-text" class="P-text ">Fabrication de Panneaux Sandwiches Décoratifs & Accessoires de fixation</div>
+       </div>
+       <div id="metal" class="product three" onclick="location.href='RSMétalique.html'" >
+        <img class="B3" src="elements/Images/product panel/Untitled-5.png" draggable="false" >
+        <img class="B2" src="elements/Métallique/Ossature 3.png" draggable="false" >
+        <img class="B1" src="elements/Images/product panel/Untitled-3.png" draggable="false">
+        <img src="elements/Images/Group 9.png" class="B-line">
+        <div id="B-text" class="P-text ">Réalisation des Structures Métalliques légères</div>
+       </div>
+       
+</section>
+<section id="entreprise-page">
+    <div class="entreprise-title enHidden"><div class="title-line"></div><h1> EBACOM PANNEAU SANDWICH :</h1><div class="title-line"></div></div>
+    <h4 class="enHidden">Est une entreprise spécialisée dans la fabrication des produits innovants qui développent la construction moderne</h4>
+    <h5 class="enHidden">L'entreprise active dans (03) créneaux de fabrication:</h5>
+    <ol class="enHidden">
+        <li>Fabrication de SOLID SURFACE pour diverses Applications pour une construction moderne.</li>
+        <li>Fabrication de Paneaux Sandwiches Décoratifs & Accessoires de Fixation.</li>
+        <li>Production de Structures Métaliques Légères pour la construction Modulaire.</li>
+        
+    </ol>
+    <div id="service-page" class="entreprise-demaines enHidden"><div class="title-line"></div><h1>Domaines d'Applications</h1><div class="title-line"></div></div>
+    <ul class="enHidden">
+        <li>Habitat Individuel et Hébergement.</li>
+        <li>Showrooms et grandes surfaces commerciales.</li>
+        <li>Milieu médical et professionnels de santé.</li>
+        <li>Hôtellerie et Restauration.</li>
+        <li>Divers types d'investissements Industriels.</li>
+    </ul>
+</section>
+   <footer id="footer">
+    <div class="upper">
+        <div class="contact-us">
+            <h1><svg id="Icons" style="enable-background:new 0 0 32 32;" version="1.1" viewBox="0 0 32 32" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M16,2C9.4,2,4,7.4,4,14v3c0,2.8,2.2,5,5,5c0.6,0,1-0.4,1-1v-8c0-0.6-0.4-1-1-1c-1.1,0-2.1,0.4-2.9,1c0.5-5,4.8-9,9.9-9  s9.4,3.9,9.9,9c-0.8-0.6-1.8-1-2.9-1c-0.6,0-1,0.4-1,1v8c0,0.6,0.4,1,1,1c0.6,0,1.3-0.1,1.8-0.4c-1.1,2-2.8,3.6-4.9,4.5  c-0.2-1.2-1.2-2.2-2.5-2.2c-1.3,0-2.4,1.1-2.4,2.4c0,0.7,0.3,1.4,0.9,1.9c0.5,0.4,1,0.6,1.6,0.6c0.1,0,0.3,0,0.4,0  C23.6,28,28,22.9,28,17v-3C28,7.4,22.6,2,16,2z"/></svg>Contact</h1>
+            <li>
+                <?xml version="1.0" ?><svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24 4c-7.73 0-14 6.27-14 14 0 10.5 14 26 14 26s14-15.5 14-26c0-7.73-6.27-14-14-14zm0 19c-2.76 0-5-2.24-5-5s2.24-5 5-5 5 2.24 5 5-2.24 5-5 5z"/>
+                <path d="M0 0h48v48h-48z" fill="none"/>
+                </svg>
+                Rue Beggag Bouzid cite Financiere 19000
+            </li>
+            <li>
+                <?xml version="1.0" ?>
+                <svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z"/>
+                </svg>
+                TEL: 213 (0) 36 60 70 50
+            </li>
+            <li>
+                <?xml version="1.0" ?><svg height="1792" viewBox="0 0 1792 1792" width="1792" xmlns="http://www.w3.org/2000/svg">
+                <path d="M288 384q66 0 113 47t47 113v1088q0 66-47 113t-113 47h-128q-66 0-113-47t-47-113v-1088q0-66 47-113t113-47h128zm1376 163q58 34 93 93t35 128v768q0 106-75 181t-181 75h-864q-66 0-113-47t-47-113v-1536q0-40 28-68t68-28h672q40 0 88 20t76 48l152 152q28 28 48 76t20 88v163zm-736 989v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm256 512v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm256 512v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm0-256v-128q0-14-9-23t-23-9h-128q-14 0-23 9t-9 23v128q0 14 9 23t23 9h128q14 0 23-9t9-23zm96-384v-256h-160q-40 0-68-28t-28-68v-160h-640v512h896z"/>
+                </svg>
+                Fax: 213 (0) 36 51 32 57
+            </li>
+            <li>
+                <?xml version="1.0" ?><svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                <path d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z"/>
+                </svg>
+                ebacompaneauxsan@gmail.com
+            </li>
+        </div>
+        <div class="v-line"></div>
+        <div class="explore">
+            <h1><?xml version="1.0" ?><svg height="48" viewBox="0 0 48 48" width="48" xmlns="http://www.w3.org/2000/svg"><path d="M24 21.8c-1.21 0-2.2.99-2.2 2.2s.99 2.2 2.2 2.2c1.22 0 2.2-.99 2.2-2.2s-.98-2.2-2.2-2.2zm0-17.8c-11.05 0-20 8.95-20 20 0 11.04 8.95 20 20 20s20-8.96 20-20c0-11.05-8.95-20-20-20zm4.38 24.38l-16.38 7.62 7.62-16.38 16.38-7.62-7.62 16.38z"/><path d="M0 0h48v48h-48z" fill="none"/></svg>Exploration</h1>
+                <ul>
+                <a href="index.html#home-page">Page d'accueil</a>
+                <a href="index.html#product-page">Produits</a>
+                <a href="index.html#entreprise-page">Entreprise</a>
+                <a href="index.html#service-page">Service</a>
+                <a href="SolidSurface.html">Production de Solid Surface Pour diverses Applications</a>
+                <a href="PSDécoratifs.html">Fabrication de Panneaux Sandwiches Décoratifs & Accessoires de finixation</a> 
+                <a href="RSMétalique.html">Réalisation des Structures Métalliques légères</a> 
+               </ul>
+        </div>
+        <div class="v-line"></div>
+        <div class="map">
+            <h1><?xml version="1.0" ?><svg viewBox="0 0 96 96" xmlns="http://www.w3.org/2000/svg"><title/><path d="M93.3047.9934A6.0613,6.0613,0,0,0,87.6328.4777l-25.63,10.9856L36.3633.4777c.04.022.0139.1641.0447.2044A5.951,5.951,0,0,0,31.6289.4777l-27.9961,12A6.01,6.01,0,0,0,0,17.9973v72a6.0087,6.0087,0,0,0,6,6,6.1926,6.1926,0,0,0,2.3672-.48l25.63-10.9856,25.64,10.9856a6.1926,6.1926,0,0,0,2.3672.48,5.9893,5.9893,0,0,0,2.3408-.7053c.0052.0476.0264.2248.0264.2248l27.9961-12A6.01,6.01,0,0,0,96,77.9973v-72A5.9705,5.9705,0,0,0,93.3047.9934ZM12,21.9582l15.9961-6.8555V74.0363L12,80.8918ZM39.9961,15.091l16.0078,6.8672V80.9035L39.9961,74.0363ZM84,74.0363,68.0039,80.8918V21.9582L84,15.1027Z"/></svg>Carte</h1>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3219.841550035818!2d5.411092617598592!3d36.194735188187174!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12f31599d1bad8c1%3A0xf9fe76b8cd390aa5!2sGroupe%20Touati!5e0!3m2!1sen!2sdz!4v1676839285096!5m2!1sen!2sdz" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    <div class="h-line"></div>
+    <div class="lower">
+        <h4 style="color: rgba(255, 255, 255, 0.719);"><b>Copyright</b> © <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> EBACOM PANNEAU SANDWICHS, All rights reserved.</h4>
+    </div>
+   </footer>
+ <script src="main.js"></script>   
+</body>
+</html>
