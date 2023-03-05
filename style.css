@@ -260,17 +260,15 @@ html{scroll-behavior: smooth; margin: 0%;padding: 0%;overflow-x: hidden;}
 }
 
 .A1{
-    background-color:#40485700;
     height: 100%;
     display: flex;
     align-items: center;
+    background-color: #404857;
+  /*  aspect-ratio: 1.2/1;*/
 }
 .panel3d{
-    background-color: #404857;
     position: relative;
-    height: 70%;
-    padding: 15%  0 15% 0;
-    transform: translateX(-0px);
+    height: 75%;
 }
 .A2{
     width: auto;
